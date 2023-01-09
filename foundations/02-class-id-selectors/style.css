@@ -8,13 +8,12 @@ p {
   color: rgb(0, 0, 255); /*rgb*/
   font-size: 36px ;
 }
-/* element 3 */
-.class.cooler {
+/* element 3 & 4 */
+.cooler {
     font-size: 24px;
 }
 /* element 4 */
 #number-4-id {
     background-color: hsl(120, 100%, 75%);
-    font-size: 24px;
     font-weight: bold;
 }

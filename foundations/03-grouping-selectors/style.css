@@ -1,0 +1,21 @@
+
+
+/* common properties: font size, font */
+
+.positive,
+.negative {
+  font-size: 28px;
+  font-family: "Helvetica", "Times New Roman", sans-serif ;
+}
+
+/* click me */
+
+.positive {
+  background-color: black;
+  color: white; 
+}
+
+/* no, click me */
+.negative{
+  background-color: yellow;
+}
