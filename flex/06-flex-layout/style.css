@@ -5,6 +5,12 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+ 
+  
 }
 
 img {
@@ -16,6 +22,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 12px;
+ 
 }
 
 input {
@@ -25,3 +33,47 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+.right-links, .left-links {
+  display: flex;
+  gap: 14px;
+  list-style: none;
+  padding: 10px;
+  margin-top: 6px;
+  
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+a:link { 
+  text-decoration: none;
+  color: #787878;
+
+}
+
+.footer {
+  background-color: #eeeeee ;
+  align-items: center; 
+}
+
+
+.content {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+- The header is at the top of the page, the footer is at the bottom, and they stay in place if you resize your screen. DONE
+- The header and footer have padding. DONE
+- The links in the header and footer are pushed to either side. DONE
+- There is space between the links in the header and footer. DONE
+- The footer has a light gray background (`#eeeeee`). DONE
+- The logo, input and buttons are centered in the screen. DONE
+- The buttons have an appropriate amount of padding. DONE
+- There is space between the logo, input and buttons. DONE
