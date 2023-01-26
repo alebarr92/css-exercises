@@ -7,7 +7,7 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
  
  
   
@@ -22,7 +22,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 12px;
+  padding: 8px 16px;
  
 }
 
@@ -35,18 +35,20 @@ input {
 }
 
 
-.right-links, .left-links {
+.right-links, .left-links {   /* used class selector vs type from solution */
   display: flex;
   gap: 14px;
   list-style: none;
-  padding: 10px;
-  margin-top: 6px;
+  /* margin-top: 6px; */
+  margin: 0;
   
 }
 
 .header, .footer {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
+
 }
 
 a:link { 
@@ -58,6 +60,9 @@ a:link {
 .footer {
   background-color: #eeeeee ;
   align-items: center; 
+  /* padding: 8px; */
+ 
+
 }
 
 
@@ -66,6 +71,7 @@ a:link {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex: 1; /*expands middle and pushes footer all the way down */
 }
 
 
