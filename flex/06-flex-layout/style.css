@@ -71,7 +71,7 @@ a:link {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex: 1; /*expands middle and pushes footer all the way down */
+  flex: 1; /*expands middle to take up entire width of body container and gives each child equal portion of body container */
 }
 
 
